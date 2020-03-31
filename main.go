@@ -6,6 +6,7 @@ import (
 )
 
 var opts struct {
+	NotSet   []string `long:"notset"`
 	Empty    []string `long:"empty"`
 	Single   []string `long:"single"`
 	Multiple []string `long:"multiple"`
